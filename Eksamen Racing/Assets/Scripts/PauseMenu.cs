@@ -46,6 +46,9 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("DesertMap");
+        LapTimeManager.MinuteCount = 0;
+        LapTimeManager.SecondCount = 0;
+        LapTimeManager.MilliCount = 0;
     }
 
     public void QuitGame()
