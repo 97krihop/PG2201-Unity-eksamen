@@ -28,11 +28,9 @@ public class LapComplete : MonoBehaviour{
 
         MilliDisplay.GetComponent<Text>().text = "" + LapTimeManager.MilliCount;
 
-        LapTimeManager.MinuteCount = 0;
-        LapTimeManager.SecondCount = 0;
-        LapTimeManager.MilliCount = 0;
 
         lapCompleteTrig.SetActive(false);
+        Time.timeScale = 0f;
 
     }
 
