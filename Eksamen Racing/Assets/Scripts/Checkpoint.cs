@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Script
-{
+
     public class Checkpoint : MonoBehaviour
     {
         public GameObject ThisCheckpoint;
@@ -14,4 +13,4 @@ namespace Script
             ThisCheckpoint.SetActive(false);
         }
     }
-}
+

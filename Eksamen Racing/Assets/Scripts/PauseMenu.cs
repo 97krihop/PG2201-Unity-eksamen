@@ -49,8 +49,11 @@ public class PauseMenu : MonoBehaviour
         LapTimeManager.MinuteCount = 0;
         LapTimeManager.SecondCount = 0;
         LapTimeManager.MilliCount = 0;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 0090dc84f7e8bc3738b5060adcd91c7079ce7772
     }
 
     public void QuitGame()
